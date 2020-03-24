@@ -37,8 +37,8 @@ eureka:
 info:
   app.name: microservicecloud-springcloudconfig01
   company.name: microservicecloud-springcloudconfig01-dept8001
-  build.artifactId: @project.artifactId@
-  build.version: @project.version@
+  build.artifactId: ${project.artifactId}
+  build.version: ${project.version}
 ---
 server:
   port: 8001
@@ -74,5 +74,5 @@ eureka:
 info:
   app.name: microservicecloud-springcloudconfig01
   company.name: microservicecloud-springcloudconfig01-dept8001
-  build.artifactId: @project.artifactId@
-  build.version: @project.version@
+  build.artifactId: ${project.artifactId}
+  build.version: ${project.version}
